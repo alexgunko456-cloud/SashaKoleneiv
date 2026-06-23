@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibidi Toilet vs Kosta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What is Better?</h1>
+        <h2 class="question">Skibidi Toilet or Kosta?</h2>
+        
+        <div class="options">
+            <button class="option-btn" data-choice="skibidi">Skibidi Toilet</button>
+            <button class="option-btn" data-choice="kosta">Kosta</button>
+        </div>
+
+        <div class="display-area" id="displayArea" style="display: none;">
+            <img id="resultImage" src="" alt="Result Picture" class="result-image">
+            <h2 id="resultTitle"></h2>
+            <p id="resultMessage"></p>
+            <button class="reset-btn" onclick="resetChoice()">Try Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
